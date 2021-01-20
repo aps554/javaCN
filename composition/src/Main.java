@@ -13,14 +13,14 @@ public class Main {
 //
 //        sch.getStudent().getMarks().setMaths(45);
 
-        int[] arr = new int[]{1,2,3,4,5};
+        int[] arr = new int[]{1, 2, 3, 4, 5};
         int[] brr = arr;
         printArr(arr);
         printArr(brr);
-        modify (arr);
+        modify(arr);
         printArr(arr);
         printArr(brr);
-        brr = new int[]{5,5,5,5,5};
+        brr = new int[]{5, 5, 5, 5, 5};
         printArr(arr);
         printArr(brr);
     }
@@ -29,9 +29,9 @@ public class Main {
         arr[2] = 4;
     }
 
-    private static void printArr(int[] arr){
-        for(int a:arr){
-            System.out.print(a+ " ");
+    private static void printArr(int[] arr) {
+        for (int a : arr) {
+            System.out.print(a + " ");
         }
         System.out.println();
     }
