@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
 
 //    private static Scanner s = new Scanner(System.in);
@@ -23,6 +25,19 @@ public class Main {
         brr = new int[]{5, 5, 5, 5, 5};
         printArr(arr);
         printArr(brr);
+
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(23);
+        list.add(45);
+        list.add(63);
+        list.add(645);
+        list.add(46);
+        list.add(226);
+        list.add(2546);
+//        list
+        System.out.println(list.toString());
+        list.add(7,123);
+        System.out.println(list.toString());
     }
 
     private static void modify(int[] arr) {
